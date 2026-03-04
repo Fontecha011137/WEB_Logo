@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 80px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+/* NAV */
+.custom-nav {
+  background: linear-gradient(90deg, #6a0dad, #ff4da6);
+}
+
+/* SECCIONES */
+.section-light {
+  background: #fff0f6;
+  padding: 80px 0;
+}
+
+.section-purple {
+  background: #f3e8ff;
+  padding: 80px 0;
+}
+
+/* CSS GRID VALORES */
+.grid-valores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* GRID COLORES */
+.grid-colores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.color-box {
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.purple { background: #6a0dad; }
+.pink { background: #ff4da6; }
+.gold { background: #d4af37; }
